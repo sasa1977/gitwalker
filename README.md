@@ -37,7 +37,8 @@ Change to the folder of the repo where you want to walk through the commit histo
 - I used the tool at my workshop, and it worked for me on my machine :-) I make no other guarantees. Use with caution, perhaps by trying it out on a temporary copy of your repo.
 - Gitwalker commands revert any local changes (by using `git reset --hard current_sha`). Don't use gitwalker if you have some pending changes.
 - Gitwalker commands check out a commit without creating a branch (by doing `git checkout sha`). Once you're done walking around the history, you'll need to manually checkout the master branch and resume your work.
+- Not tested on Windows. It should work, but I didn't try it out. If you have problems open up an issue, or, even better, make a PR :-)
 
 ## License
 
-MIT. See [the license file](./LICENSE).
+[MIT](./LICENSE)
